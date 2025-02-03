@@ -1,5 +1,3 @@
 node_modules
 __pycache__
 settings.py
-package.json
-package-lock.json
