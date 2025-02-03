@@ -20,5 +20,6 @@ import leads
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('leads.urls'))
+    path('',include('frontend.urls')),
+    path('',include('leads.urls')),
 ]

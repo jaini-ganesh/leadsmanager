@@ -99,8 +99,8 @@
     "prop-types": "^15.8.1",
     "punycode": "^2.3.1",
     "randombytes": "^2.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "rechoir": "^0.8.0",
     "regenerate": "^1.4.2",
     "regenerate-unicode-properties": "^10.2.0",
@@ -154,7 +154,8 @@
     "webpack-cli": "^6.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch ./leadmanager/frontend/src/index.js --output-path ./leadmanager/frontend/static/frontend/",
+    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output-path ./leadmanager/frontend/static/frontend/"
   },
   "repository": {
     "type": "git",
